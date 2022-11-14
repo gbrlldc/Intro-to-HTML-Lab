@@ -1,0 +1,64 @@
+h1{
+    color:"White";
+    text-align:"center";
+    font-family: "Trebuchet MS";
+}
+
+body {
+    font-family: "Times New Roman";
+    text-align:"center";
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    text-align: center;
+  }
+
+  li {
+    float: left;
+    list-style-type:none;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+
+  }
+  
+.topnav {
+  background-color: #622F22;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #622F22;
+    color: white;
+    text-align: center;
+    font-size: 15px
+}
